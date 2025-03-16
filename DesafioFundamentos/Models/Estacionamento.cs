@@ -25,6 +25,7 @@ namespace DesafioFundamentos.Models
                 placa = Console.ReadLine().ToString();
             }
 
+            veiculos.Add(placa);
             Console.WriteLine($"Veículo de placa {placa} cadastrado com sucesso!");
 
         }
